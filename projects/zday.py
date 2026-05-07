@@ -1,4 +1,4 @@
-def main():
+def monthly_payment():
     print(" This is a monthly payment loan calculator ")
     print("")
 
@@ -26,3 +26,4 @@ print(list(z))
 
 print(z.isdigit())
 
+monthly_payment()

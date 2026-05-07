@@ -5,9 +5,9 @@
 # print("subscribe to {}".format(youtuber))
 # print(f'subscribe to {youtuber}')
 adj = input("Adjectiv: ")
-verb = input("Verb: ")
-verb2 = input("Verb:")
-adj2 = input("verb: ")
+verb = input("Descrie o actiune: ")
+verb2 = input("Descrie o alta actiune: ")
+adj2 = input("Un Adjectiv: ")
 
 
 madlib = (f"Hamsterul este atat de {adj}! Ii place sa fuga si sa {verb}. Cand nu {verb2} el nu face decat sa se {adj2}")

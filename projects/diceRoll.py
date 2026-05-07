@@ -10,5 +10,5 @@ def roll_dice():
 
         roll = input("Mai dai cu zarul? (Da/Nu): ")
 
-    print("Seionara!")
+    print("Saionara!")
 roll_dice()
