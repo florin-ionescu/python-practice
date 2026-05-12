@@ -11,12 +11,13 @@ print(set(arr1))
 print(arr1.count(1))
 
 def replace_word():
-    str = "Hi guys, I am Florin and hi hi hi hi"
+    str = "Hi guys, I am Florin"
     word_to_replace = input("Word to replace: ")
     word_replacement = input("Enter a word to replace with: ")
     print(str.replace(word_to_replace, word_replacement))
 
 replace_word()
+
 
 def add(a, b):
     ans = a + b
@@ -33,29 +34,29 @@ def div(a,b):
 
 while True:
     print("A - Add")
-    print("B - subs")
-    print("C - multy")
-    print("D - div")
-    print("E - exit")
+    print("S - Subtract")
+    print("M - Multiply")
+    print("D - Divide")
+    print("E - Exit")
 
-    choice = input("Choose ABCDE ")
+    choice = input("Choose ASMDE ")
     if choice == "a" or choice == "A":
         print("addition")
         a = int(input("first number "))
         b = int(input("2nd number "))
         add(a,b)
-    elif choice == "b" or choice == "B":
-        print("subtr ")
+    elif choice == "s" or choice == "S":
+        print("subtraction ")
         a = int(input("first number "))
         b = int(input("2nd number "))
         sub(a, b)
-    elif choice == "c" or choice == "C":
+    elif choice == "c" or choice == "M":
         print("multiplication ")
         a = int(input("first number"))
         b = int(input("2nd number"))
         mul(a, b)
     elif choice == "d" or choice == "D":
-        print("div")
+        print("divide")
         a = int(input("first number"))
         b = int(input("2nd number"))
         div(a, b)
