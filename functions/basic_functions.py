@@ -1,5 +1,7 @@
+
 def greet(name, surname):
     print(f"Hello, {name} {surname}!")
+
 greet("Florin", "Ionescu")
 
 nume = ["Florin", "Marius", "Andrei", "Alexandru", "Cristian"]

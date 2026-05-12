@@ -15,9 +15,15 @@ print(starts_with_m)
 print(friends[0])  #first element
 print(friends[-1])  #last element
 
-head, *tail = numbers  #unpacking a list into variables
-print(head)  #first element
+#unpacking a list into variables
+head, *tail = numbers
+
+#first element
+print(head)
 print(tail)
 
-*head, tail = numbers  #unpacking a list into variables using * to capture the rest of the elements
-print(head)  #all elements except the last one
+#unpacking a list into variables using * to capture the rest of the elements
+*head, tail = numbers
+
+#all elements except the last one
+print(head)

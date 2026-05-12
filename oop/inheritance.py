@@ -13,3 +13,13 @@ dog = Dog()
 
 dog.speak()
 dog.bark()
+
+
+class MartialArts():
+    def __init__(self):
+        pass
+
+
+class Aikido(MartialArts):
+    def __init__(self):
+        pass

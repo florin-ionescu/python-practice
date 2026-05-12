@@ -14,3 +14,4 @@ print(repr(p))  #Persoana(nume='Ana', varsta=25)
 
 #__init__ este metoda care se ocupă de inițializarea obiectului — adică setează valorile inițiale atunci când creezi o instanță.
 """__init__ → pune datele în obiect  //   __repr__ → arată obiectul"""
+
