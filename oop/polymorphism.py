@@ -37,10 +37,10 @@ Why Polymorphism is Useful
 
 Polymorphism helps make code:
 
-More flexible
-Easier to extend
-Cleaner and reusable
-Less dependent on specific classes
+* More flexible
+* Easier to extend
+* Cleaner and reusable
+* Less dependent on specific classes
 
 Instead of writing separate code for every type, you write general code that works with many objects.
 """
