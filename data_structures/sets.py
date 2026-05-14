@@ -44,3 +44,15 @@ print(a ^ b)
 name_list = ["Florin", "Bogdan", "Alexandra", "Florin", "Bogdan"]
 unique_names = set(name_list)
 print(unique_names)
+
+# Set → Unordered -> Mutable (Sets can be modified.) -> Set Removes Duplicates Automatically -> Set Does NOT Support Indexing
+
+"""
+Use Set When:
+-> uniqueness matters
+-> removing duplicates
+-> fast lookup needed
+-> mathematical set operations
+"""
+
+# A set is an unordered collection of unique mutable elements optimized for fast lookup.
