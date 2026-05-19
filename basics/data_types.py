@@ -21,6 +21,10 @@ false_value = False
 print(true_value)
 print(false_value)
 
+"""The name comes from George Boole (1815-1864), the author of the fundamental work, The Laws of Thought, 
+which contains the definition of Boolean algebra - a part of algebra which makes use of only two distinct values: True and False, denoted as 1 and 0.
+"""
+
 #“Empty” → False   #use bool() to check the truth value of an expression
 print(bool("")) #this is False
 print(bool(0)) #this is False
@@ -33,3 +37,12 @@ print(learning_python)
 calculation = age + height
 print(calculation)
 
+
+# remainder (modulo)
+print(14 % 4)
+"""
+14 // 4 gives 3 → this is the integer quotient;
+3 * 4 gives 12 → as a result of quotient and divisor multiplication;
+14 - 12 gives 2 → this is the remainder.
+
+"""

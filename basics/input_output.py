@@ -10,6 +10,18 @@ print(type(age))
 
 print("Hello", name)
 
+print("My name is ", end="")
+print("Monty Python.")
+
+print("My name is\nFlorin Ionescu")
+
+
+#The keyword argument that can do this is named sep (like separator).
+print("My", "name", "is", "Monty", "Python.", sep="-")
+
+print("I'm Monty Python.")
+print('I\'m Monty Python.')
+
 #output using print() function
 
 #Function output return Send value back to the caller.
