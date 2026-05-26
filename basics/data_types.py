@@ -46,3 +46,7 @@ print(14 % 4)
 14 - 12 gives 2 → this is the remainder.
 
 """
+
+print(10 % 3)  # Output: 1  (3 goes into 10 three times, with 1 left over)
+print(8 % 4)   # Output: 0  (8 is perfectly divisible by 4, so no remainder)
+print(3 % 5)   # Output: 3  (5 goes into 3 zero times, so all 3 remains)
