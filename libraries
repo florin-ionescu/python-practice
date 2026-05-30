@@ -1,0 +1,12 @@
+| Module/topic    | Useful for                    |
+| --------------- | ----------------------------- |
+| `os`, `pathlib` | working with files/folders    |
+| `shutil`        | copying/moving/cleaning files |
+| `csv`           | ticket reports, CSV analyzers |
+| `json`          | API responses, config files   |
+| `datetime`      | logs, timestamps, reports     |
+| `logging`       | proper script/app logs        |
+| `sqlite3`       | Expense Tracker project       |
+| `subprocess`    | running shell commands        |
+| `argparse`      | command-line tools            |
+| `venv`          | Python environments           |
