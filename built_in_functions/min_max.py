@@ -7,3 +7,7 @@ names = ["Ana", "Florin", "Mihai"]
 
 print(min(names))  # Ana, alphabetically first
 print(max(names))  # Mihai, alphabetically last
+
+cats=('Al','Tina','Sasha','Pierre')
+print(max(cats))
+# Output Tina 
