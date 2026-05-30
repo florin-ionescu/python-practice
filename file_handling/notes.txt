@@ -1,0 +1,7 @@
+Here are my notes on Python file handling.
+
+Name: Florin
+Programming Language: Python
+Value: TrueLearn file handling
+
+Learn file handling
