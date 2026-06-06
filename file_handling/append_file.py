@@ -2,8 +2,6 @@
 
 with open('notes.txt','a') as file:
     file.write("\nLearn file handling\n")
-
-
 '''
 "r" = read
 "w" = write and overwrite
