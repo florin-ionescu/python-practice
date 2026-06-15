@@ -30,3 +30,5 @@ while number > 0:
     number -= 1
 
 print("Go!")
+
+# A while loop repeats code as long as a condition is true.
